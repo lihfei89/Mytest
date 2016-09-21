@@ -1,0 +1,26 @@
+list Count is    :  2 ||
+select Method is :  4 ||
+exec Count is 　　　:   10000  ||
+0 times  is      5145  ||
+1 times  is      4855  ||
+----------------------------- 
+list Count is    :  2 ||
+select Method is :  4 ||
+exec Count is 　　　:   10000  ||
+0 times  is      5157  ||
+1 times  is      4843  ||
+----------------------------- 
+list Count is    :  3 ||
+select Method is :  4 ||
+exec Count is 　　　:   10000  ||
+0 times  is      3942  ||
+1 times  is      3020  ||
+2 times  is      3038  ||
+----------------------------- 
+list Count is    :  3 ||
+select Method is :  4 ||
+exec Count is 　　　:   10000  ||
+0 times  is      3913  ||
+1 times  is      3101  ||
+2 times  is      2986  ||
+----------------------------- 

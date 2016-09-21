@@ -1,0 +1,51 @@
+list Count is    :  2 ||
+select Method is :  4 ||
+exec Count is 　　　:   1000  ||
+0 times  is      544  ||
+1 times  is      456  ||
+----------------------------- 
+list Count is    :  2 ||
+select Method is :  4 ||
+exec Count is 　　　:   1000  ||
+0 times  is      512  ||
+1 times  is      488  ||
+----------------------------- 
+list Count is    :  2 ||
+select Method is :  4 ||
+exec Count is 　　　:   1000  ||
+0 times  is      498  ||
+1 times  is      502  ||
+----------------------------- 
+list Count is    :  2 ||
+select Method is :  4 ||
+exec Count is 　　　:   1000  ||
+0 times  is      472  ||
+1 times  is      528  ||
+----------------------------- 
+list Count is    :  2 ||
+select Method is :  4 ||
+exec Count is 　　　:   1000  ||
+0 times  is      510  ||
+1 times  is      490  ||
+----------------------------- 
+list Count is    :  3 ||
+select Method is :  4 ||
+exec Count is 　　　:   1000  ||
+0 times  is      401  ||
+1 times  is      305  ||
+2 times  is      294  ||
+----------------------------- 
+list Count is    :  3 ||
+select Method is :  4 ||
+exec Count is 　　　:   1000  ||
+0 times  is      366  ||
+1 times  is      347  ||
+2 times  is      287  ||
+----------------------------- 
+list Count is    :  3 ||
+select Method is :  4 ||
+exec Count is 　　　:   1000  ||
+0 times  is      385  ||
+1 times  is      321  ||
+2 times  is      294  ||
+----------------------------- 
