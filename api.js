@@ -1,6 +1,6 @@
 const Koa = require('koa');
 const app = new Koa();
-//const net = require('./netts');
+const net = require('./netts');
 const convert = require('koa-convert'); 
 const router = require('./routes');
 const bodyparser = require('koa-bodyparser')();

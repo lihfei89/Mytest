@@ -1,5 +1,5 @@
 var net = require("net");
-var dataConf = '!@#' + JSON.stringify(require("./pigs/t1conf.json")) + '%^&*';
+var dataConf = '!@#' + JSON.stringify(require("./pigs/t12conf.json")) + '%^&*';
 console.log(dataConf);
 
 function connectMicroDiscover() {

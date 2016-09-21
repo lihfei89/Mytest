@@ -7,8 +7,8 @@ router
     })
     .post('/', async function (ctx, next) {
         console.log('i am  post');
-        //ctx.body = require('../pigs/t1.json');
-        ctx.body = ctx.request.body;
+        ctx.body = require('../pigs/t1.json');
+        //ctx.body = ctx.request.body;
     });
 
 
