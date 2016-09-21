@@ -1,7 +1,0 @@
-list Count is    :  3 ||
-select Method is :  5 ||
-exec Count is 　　　:   1000  ||
-0 times  is      224  ||
-1 times  is      201  ||
-2 times  is      198  ||
------------------------------ 
