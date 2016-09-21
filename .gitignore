@@ -1,5 +1,5 @@
-/.vscode
-/1000
-/10000
-/100000
-/node_modules
+/.vscode/*
+/1000/*
+/10000/*
+/100000/*
+/node_modules/*
