@@ -3,3 +3,5 @@
 /10000/*
 /100000/*
 /node_modules/*
+/coverage/*
+
