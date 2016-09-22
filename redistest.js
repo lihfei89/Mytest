@@ -17,7 +17,7 @@ function setValue(key, value) {
 }
 
 /*
-    get  one  value  thougt key
+    get  one  value  by key
 */
 function getValue(key) {
     client.get(key, function (err, reply) {

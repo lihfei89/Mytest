@@ -12,6 +12,7 @@ describe('redis test', function () {
     describe('redis write', function () {
         it('set t1 = 1 shoule true', function (done) {
             redis.addRedisString('t1', 1).then(function (res) {
+                console.log(res);
                 var shouldValue = 'OK';
                 res.should.equal(shouldValue);
                 done();

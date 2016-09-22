@@ -3,6 +3,7 @@ var redis = require('redis');
 
 async function addRedisSet(key, value) {
     let client = redis.createClient();
+    client.select(1);
     return new Promise(function (resolve, reject) {
         var tempValue = '';
         if (typeof value == Object) {
