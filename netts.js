@@ -3,7 +3,8 @@ var dataConf = '!@#' + JSON.stringify(require("./pigs/t1conf.json")) + '%^&*';
 console.log(dataConf);
 
 function connectMicroDiscover() {
-    var client = net.connect({ port: 2000 ,host:'192.168.1.101'}, function () {
+    let hostJson = require('./conf/ipconfig.json')
+    var client = net.connect({ port: hostJson.port, host: hostJson.ip }, function () {
         console.log('client connected');
         var buffer = new Buffer(dataConf);
         console.log(buffer);

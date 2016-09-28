@@ -11,7 +11,6 @@ function a(isTrue) {
             }
         }, 500);
     }).catch(function (err) {
-        console.log(arguments.length+" -----");
         return err;
     })
 }
@@ -61,13 +60,6 @@ a(true).then(function (res) {
 })
 
 
-
-a(true).then(function(resA){
-    return resA;
-}).then(function(resA){
-    
-})
-
 console.log('-----------------------');
 
 // a(false).then(function (res) {
@@ -96,14 +88,44 @@ Promise.all([a(false), b(true), c(true)]).then(function (res) {
     console.log(rej);
 });
 
-Promise.race([a(false), b(true), c(true)]).then(function (res) {
-    console.log('----------3');
-    console.log(res);
-}, function (rej) {
-    console.log('---------4');
-    console.log(rej);
-});
+// Promise.race([a(false), b(true), c(true)]).then(function (res) {
+//     console.log('----------3');
+//     console.log(res);
+// }, function (rej) {
+//     console.log('---------4');
+//     console.log(rej);
+// });
 
+
+Promise.resolve('foo').then(Promise.resolve('bar')).then(function (res) {
+    console.log(res);
+})
+
+
+a(true).then(function(){
+    return b(true)
+}).then(function(res){
+    console.log('-------------1');
+    console.log(res);
+})
+
+
+a(true).then(function (ss) {
+    b(true);
+}).then(function (res) {
+    console.log('-------------2');
+    console.log(res);
+})
+
+a(true).then(b(true)).then(function(res){
+    console.log('------------3');
+    console.log(res);
+})
+
+a(true).then(b).then(function(res){
+    console.log('-------------4');
+    console.log(res);
+})
 
 
 /* https://cauu.github.io/2015/10/promise/ */
